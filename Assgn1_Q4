@@ -1,0 +1,5 @@
+i = int(input("Please enter the input:"))
+if (i%2 == 0 & i%5 == 0):
+  print("Hurray this is what i am looking for")
+else:
+  print("Wrong input")
