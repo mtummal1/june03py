@@ -1,2 +1,10 @@
 print('Hello My name is "Manish". I love Coding')
 print("This is 'my first program'.")
+
+x = input("Enter your value: ")
+y = input("Enter your value: ")
+z = input("Enter your value: ")
+
+print("Value1 =", x, "value2 =", y, "value3 =", z)
+
+print(type(x), type(y), type(z))
