@@ -1,0 +1,8 @@
+i = int(input("Please enter the input:"))
+
+if 10<= i <= 25:
+
+  print("Yes I am in the range")
+
+else:
+  print("Oops")
