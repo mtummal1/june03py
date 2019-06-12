@@ -1,0 +1,41 @@
+#this program returns the total number of vowels in an input string
+s =str (input("enter the sentence "))
+count = 0
+for i in s :
+  if ( i=='A' or i=='a' or i=='E' or i=='e'
+	or i=='I' or i=='i' or i=='O' or i=='o'
+	or i=='U' or i=='u'):
+    count +=1
+
+print ("total number of vowels:", count)
+
+#code to print how many times each vowel character is repeated
+count_a = 0
+for i in s: 
+    if i == 'a': 
+        count_a += 1
+print ("total number of a's:", count_a)
+
+count_e = 0
+for i in s: 
+    if i == 'e': 
+        count_e += 1
+print ("total number of e's:", count_e)
+
+count_i = 0
+for i in s: 
+    if i == 'i': 
+        count_i += 1
+print ("total number of i's:", count_i)
+
+count_o = 0
+for i in s: 
+    if i == 'o': 
+        count_o += 1
+print ("total number of o's:", count_o)
+
+count_u = 0
+for i in s: 
+    if i == 'u': 
+        count_u += 1
+print ("total number of u's:", count_u)
