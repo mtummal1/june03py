@@ -1,0 +1,3 @@
+s = str(input("enter user input:"))
+
+print(list(map(len, s.split())))
