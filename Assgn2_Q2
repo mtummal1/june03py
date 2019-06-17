@@ -1,0 +1,20 @@
+def printPairs(arr, n, sum): 
+  
+    #the logic to check all pairs.
+    for i in range(0, n ): 
+        for j in range(i + 1, n ): 
+            if (arr[i] + arr[j] in sum): 
+                print("(", arr[i],  
+                      ", ", arr[j],  
+                      ")", sep = "") 
+  
+  
+#create the input list
+arr = list(range(1,22)) 
+
+n = len(arr) 
+
+#create a sum list with all the even number from 4 to 40 as only those are possible
+sum = list(range(4, 41, 2))
+printPairs(arr, n, sum) 
+  
