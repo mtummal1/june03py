@@ -1,0 +1,65 @@
+
+sentence = str(input("enter the string"))
+
+
+a1 = sentence.count("!")
+a2 = sentence.count(".")
+a3 = sentence.count(">")
+a4 = sentence.count("<")
+a5 = sentence.count(":")
+a6= sentence.count(";")
+a7 = sentence.count("'")
+a8 = sentence.count("@")
+a9 = sentence.count("#")
+a10 = sentence.count("~")
+a11= sentence.count("{")
+a12= sentence.count("}")
+a13= sentence.count("[")
+a14 = sentence.count("]")
+a15 = sentence.count("-")
+a16 = sentence.count("_")
+a17 = sentence.count("+")
+a18 = sentence.count("=")
+a19 = sentence.count("£")
+a20 = sentence.count("$")
+a21= sentence.count("%")
+a22 = sentence.count("^")
+a23= sentence.count("&")
+a24 = sentence.count("(")
+a25= sentence.count(")")
+a26=sentence.count("?")
+
+
+sp_chars = {
+
+            "!" : a1,
+            "." : a2,
+            ">" : a3,
+            "<" : a4,
+            ":" : a5,
+            ";" : a6,
+            "'" : a7,
+            "@" : a8,
+            "#" : a9,
+            "~" : a10,
+            "{" : a11,
+            "}" : a12,
+            "[" : a13,
+            "]" : a14,
+            "-" : a15,
+            "_" : a16,
+            "+" : a17,
+            "=" : a18,
+            "£" : a19,
+            "$" : a20,
+            "%" : a21,
+            "^" : a22,
+            "&" : a23,
+            "(" : a24,
+            ")" : a25,
+            "?" : a26
+
+
+}
+
+print (sp_chars)
