@@ -1,1 +1,15 @@
+#code for printing [10, 20]
+print (x[4][:2])
+
+#code for printing [5+5j]
+print (x[4][-1:])
+
+#code for printing [300,400]
+
+print (x[4][4][2:])
+
+#code for printing [40,[100,200,300,400],"rishabh_"]
+
+print (x[4][3:6])
+
 
