@@ -15,6 +15,6 @@ arr = list(range(1,22))
 n = len(arr) 
 
 #create a sum list with all the even number from 4 to 40 as only those are possible
-sum = list(range(4, 41, 2))
+sum = list(range(4, 21, 2))
 printPairs(arr, n, sum) 
   
