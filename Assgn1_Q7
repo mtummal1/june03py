@@ -1,0 +1,11 @@
+#code needs to be modified
+
+l = input ("enter the list")
+
+
+if l.isdigit:
+       
+       print ('True')
+else: 
+       
+       print ('False')
