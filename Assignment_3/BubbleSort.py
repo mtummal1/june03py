@@ -1,4 +1,4 @@
- 
+#this bubbe sorting algorithm has a complezity of O(n^2)
 #declare an array to perform the bubble sorted
 arr = [12, 2, 25, 11, 1, 14, 15]
  
