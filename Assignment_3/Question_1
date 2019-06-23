@@ -1,0 +1,16 @@
+
+
+my_str = input("Enter a string: ")
+
+# breakdown the string into a list of words
+words = my_str.split()
+letters = list(my_str)
+print("the letters are :", list(sorted(letters)))
+# sort the list
+words.sort()
+
+# display the sorted words
+
+print("The sorted words are:")
+for word in words:
+   print(word)
